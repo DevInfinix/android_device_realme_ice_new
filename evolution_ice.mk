@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ice device
 $(call inherit-product, device/realme/ice/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common Evolution X configuration.
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ice
+PRODUCT_NAME := evolution_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -25,17 +25,10 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-# RisingOS Flags
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="Qualcomm Snapdragon 778G" \
-    RISING_MAINTAINER="DevInfinix"
-RISING_PACKAGE_TYPE := GAPPS
+# EvolutionX Flags
+TARGET_BUILD_VARIANT := user
+PRODUCT_NO_CAMERA := false
 WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := true
-PRODUCT_NO_CAMERA := true
-TARGET_ENABLE_BLUR := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys" \
