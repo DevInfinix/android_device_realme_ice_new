@@ -31,5 +31,8 @@ SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR
 SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL_INCLUDE_DIR := \
     $(DEVICE_PATH)/touch/include
 
+# Build Paranoidsense and Turboadapter
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Include the proprietary files BoardConfig.
 include vendor/realme/ice/BoardConfigVendor.mk
