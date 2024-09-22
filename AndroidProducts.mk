@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ice.mk
+    $(LOCAL_DIR)/voltage_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ice-user \
-    lineage_ice-userdebug \
-    lineage_ice-eng
+    voltage_ice-user \
+    voltage_ice-userdebug \
+    voltage_ice-eng
