@@ -4,12 +4,12 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.providers.settings.overlay.oplus.iceq">
+    package="com.android.providers.settings.overlay.oplus.ice">
 
     <overlay
         android:isStatic="true"
-        android:priority="351"
+        android:priority="850"
         android:requiredSystemPropertyName="ro.separate.soft"
-        android:requiredSystemPropertyValue="+(21643|21644)"
+        android:requiredSystemPropertyValue="+(21695)"
         android:targetPackage="com.android.providers.settings" />
 </manifest>
