@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_ice.mk
+    $(LOCAL_DIR)/yapp_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_ice-user \
-    voltage_ice-userdebug \
-    voltage_ice-eng
+    yapp_ice-user \
+    yapp_ice-userdebug \
+    yapp_ice-eng
