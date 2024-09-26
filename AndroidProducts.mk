@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yapp_ice.mk
+    $(LOCAL_DIR)/yaap_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    yapp_ice-user \
-    yapp_ice-userdebug \
-    yapp_ice-eng
+    yaap_ice-user \
+    yaap_ice-userdebug \
+    yaap_ice-eng
