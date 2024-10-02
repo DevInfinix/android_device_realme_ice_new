@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_ice.mk
+    $(LOCAL_DIR)/derp_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_ice-user \
-    blaze_ice-userdebug \
-    blaze_ice-eng
+    derp_ice-user \
+    derp_ice-userdebug \
+    derp_ice-eng
