@@ -14,7 +14,7 @@ $(call inherit-product, device/realme/ice/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_ice
+PRODUCT_NAME := pixelstar_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -25,17 +25,16 @@ PRODUCT_SYSTEM_DEVICE := RE54BFL1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-# RisingOS Flags
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="Qualcomm Snapdragon 778G" \
-    RISING_MAINTAINER="DevInfinix"
-RISING_PACKAGE_TYPE := GAPPS
-WITH_GMS := true
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := true
+# Pixelstar Flags
+TARGET_USES_BLUR_RECENT := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
 PRODUCT_NO_CAMERA := true
-TARGET_ENABLE_BLUR := true
-TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_ADPATIVE_CHARGING := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys" \
