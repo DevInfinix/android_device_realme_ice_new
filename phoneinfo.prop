@@ -1,0 +1,7 @@
+# About phone info
+ro.infinity.soc=Qualcomm SM8350 Snapdragon 778G 5G
+ro.infinity.battery=5000 mah
+ro.infinity.display=LCD, 30/48/50/60/90/120/144Hz
+ro.infinity.camera=48 MP, 1.9 MP, 1.9 MP, 16 MP
+ro.infinity.ram=6 GB
+ro.infinity.rom=128 GB
