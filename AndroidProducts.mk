@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ice.mk
+    $(LOCAL_DIR)/halcyon_ice.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ice-user \
-    lineage_ice-userdebug \
-    lineage_ice-eng
+    halcyon_ice-user \
+    halcyon_ice-userdebug \
+    halcyon_ice-eng
