@@ -27,8 +27,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # RisingOS Flags
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="Qualcomm Snapdragon 778G" \
-    RISING_MAINTAINER="DevInfinix"
+    RisingChipset="Qualcomm Snapdragon 778G" \
+    RisingMaintainer="DevInfinix"
 RISING_PACKAGE_TYPE := GAPPS
 WITH_GMS := true
 TARGET_CORE_GMS := true
@@ -38,8 +38,7 @@ TARGET_ENABLE_BLUR := true
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys" \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := realme/RMX3461/RE54BFL1:13/TP1A.220905.001/R.1119f23-59b8-59b9:user/release-keys
+    BuildDesc="RMX3461-user 13 TP1A.220905.001 R.1119f23-59b8-59b9 release-keys" \
+    DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
+    DeviceProduct=$(PRODUCT_SYSTEM_NAME) \
+    BuildFingerprint="realme/RMX3461/RE54BFL1:13/TP1A.220905.001/R.1119f23-59b8-59b9:user/release-keys"
